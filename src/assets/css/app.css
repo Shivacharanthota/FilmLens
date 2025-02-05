@@ -1,0 +1,68 @@
+body {
+  background: #221f1f;
+  font-family: "Lato", sans-serif;
+  background: no-repeat #000;
+  background-size: cover;
+}
+
+.bg-dark{
+  background: #221f1f!important;
+}
+/* 
+.posterimage{
+  width: 100%;
+} */
+
+#root{
+  background-image: radial-gradient(circle at 20% 50%, rgba(11.76%, 15.29%, 17.25%, 0.98) 0%, rgba(11.76%, 15.29%, 17.25%, 0.88) 0%);
+}
+
+.moviebody{
+  padding: 0;
+  /* background: #221f1f;
+  opacity: 0.7; */
+}
+.MuiPaper-root, .imagecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imagecontent img {
+  max-height: 90vh;
+  object-fit: cover;
+}
+
+
+.headertext{
+    color: aqua;
+}
+input{
+  font-weight: bold;
+  color: white !important;
+}
+
+.results.transition.visible{
+    height: 25vh!important;
+    overflow-y: scroll!important;
+}
+
+.ui.small.modal{
+  margin: 0 auto!important;
+}
+
+.transparent-card {
+  /* background-color: rgba(255, 255, 255, 0.8); Adjust the transparency as needed */
+  box-shadow: none; /* Remove the box shadow */
+}
+
+
+.moviecontent .MuiPaper-root {
+  background: none;
+  color: white;
+  box-shadow: none;
+}
+
+.col{
+  flex: 1 !important;
+}

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: filmlens
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: filmlens
+  template:
+    metadata:
+      labels:
+        app: filmlens
+    spec:
+      containers:
+      - name: filmlens
+        image: charan8096/filmlens007:v1.0
+        ports:
+        - containerPort: 80  
